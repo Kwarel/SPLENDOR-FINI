@@ -134,13 +134,15 @@ public class HumanPlayer extends Player
                     Game.display.out.println("Veuillez choisir une carte à acheter sur le plateau :");
                     Game.display.out.println("Entrez les coordonnées de la carte en donnant son niveau puis sa position sur la ligne.");
     
-                    Game.display.out.println("Niveau de la carte souhaité (Entre 1 et 3 inclus) : ");
+                    Game.display.out.println("Sélectionnez le niveau de votre carte (entre 1 et 3 inclus)");
                     positionX = scanner.nextInt()-1;
+                    if (positionX == 0 || positionX == 2) {
+                        positionX = 2 - positionX;
+                    }
                     scanner.nextLine();
                     Game.display.out.println("Séléctionnez vôtre carte (Entre 1 et 4 inclus) :");
                     positionY = scanner.nextInt()-1;
                     scanner.nextLine();
-                    
                     if (positionX < 0 || positionX > 3 || positionY < 0 || positionY > 4) {
                         Game.display.out.println("Aucune carte n'existe à cette position. Réessayez.");
                     } else {
