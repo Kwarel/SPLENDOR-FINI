@@ -1,13 +1,30 @@
+// Importation des packages :
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 
+
+/** La classe HumanPlayer hérite de la classe Player, les attibuts et la plus part des méthodes sont 
+ * donc déjà déclarer au préalable dans celle-ci.
+ * Elle a pour objectif de représenter joueur humain et séléctionner l'actino qu'il veut faire.
+ */
 public class HumanPlayer extends Player
 {
+    
+    //Déclaration des attributs de class HumanPlater fait dans la classe mère Player
+    
+    
+    //Constructeur
+    /**
+     * Constructeur:
+     * Initialise les attributs de player
+     */
     public HumanPlayer(int id, String name){
         super(id,name);
     }
 
+    
+    //Action que le joueur peut executer Player selon le numéro qu'il donne
     public Action chooseAction(Board board){
 
         Action result = null;
@@ -115,12 +132,12 @@ public class HumanPlayer extends Player
             while (!positionValide) {
                 try {
                     Game.display.out.println("Veuillez choisir une carte à acheter sur le plateau :");
-                    Game.display.out.println("Entrez les coordonnées de la carte (ligne et colonne).");
+                    Game.display.out.println("Entrez les coordonnées de la carte en donnant son niveau puis sa position sur la ligne.");
     
-                    Game.display.out.println("Entrez la ligne de la carte (Entre 1 et 3 inclus).");
+                    Game.display.out.println("Niveau de la carte souhaité (Entre 1 et 3 inclus) : ");
                     positionX = scanner.nextInt()-1;
                     scanner.nextLine();
-                    Game.display.out.println("Entrez la colonne de la carte (Entre 1 et 4 inclus).");
+                    Game.display.out.println("Séléctionnez vôtre carte (Entre 1 et 4 inclus) :");
                     positionY = scanner.nextInt()-1;
                     scanner.nextLine();
                     
