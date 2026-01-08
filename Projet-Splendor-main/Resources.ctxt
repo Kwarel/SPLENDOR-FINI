@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Resources
+comment1.params=
+comment1.target=Resources()
+comment1.text=\n\ Cr\u00E9er\ une\ HashMap\ Resources\ et\ initialise\ toutes\ les\ resources\ \u00E0\ 0.\n
+comment2.params=coutDiamond\ coutSapphire\ coutEmerald\ coutRuby\ coutOnyx
+comment2.target=Resources(int,\ int,\ int,\ int,\ int)
+comment2.text=\n\ Cr\u00E9er\ une\ HashMap\ Resources\ et\ initialise\ toutes\ les\ resources\ \u00E0\ la\ valeur\ voulue.\n
+comment3.params=resource
+comment3.target=int\ getNbResource(Resource)
+comment3.text=\n\ Renvoie\ le\ nombre\ d'une\ resource.\n
+comment4.params=resource\ quantity
+comment4.target=void\ setNbResource(Resource,\ int)
+comment4.text=\n\ Modifie\ le\ nombre\ d'une\ resource.\n
+comment5.params=resource\ quantity
+comment5.target=void\ updateNbResource(Resource,\ int)
+comment5.text=\n\ Additionne\ ou\ soustrait\ une\ quantit\u00E9\ d'une\ resource.\n
+comment6.params=
+comment6.target=java.util.ArrayList\ getAvailableResources()
+comment6.text=\n\ Retourne\ les\ types\ de\ resources\ ou\ il\ y\ a\ +\ que\ 0\ resource.\n
+numComments=7

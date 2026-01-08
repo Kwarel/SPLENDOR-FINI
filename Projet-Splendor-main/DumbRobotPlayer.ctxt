@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=DumbRobotPlayer
+comment0.text=\ La\ classe\ DumbRobotPlayer\ h\u00E9rite\ de\ la\ classe\ Player,\ les\ attibuts\ et\ la\ plus\ part\ des\ m\u00E9thodes\ sont\ \n\ donc\ d\u00E9j\u00E0\ d\u00E9clarer\ au\ pr\u00E9alable\ dans\ celle-ci.\n\ Elle\ a\ pour\ objectif\ de\ simuler\ un\ joueur\ automate\ qui\ executera\ les\ m\u00EAme\ m\u00E9thodes\ qu'un\ joueur\ humain\n\ mais\ de\ mani\u00E8re\ pr\u00E9visible\ dans\ un\ ordre\ pr\u00E9cis.\n
+comment1.params=id\ name
+comment1.target=DumbRobotPlayer(int,\ java.lang.String)
+comment1.text=\nConstructeur\:\nInitialise\ les\ attibuts\ de\ player\n
+comment2.params=board
+comment2.target=Action\ chooseAction(Board)
+comment3.params=
+comment3.target=Resources\ chooseDiscardingTokens()
+numComments=4

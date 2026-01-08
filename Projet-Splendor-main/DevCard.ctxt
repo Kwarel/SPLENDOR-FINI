@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=DevCard
+comment1.params=cardLevel\ coutDiamond\ coutSapphire\ coutEmerald\ coutRuby\ coutOnyx\ costCard\ resourceType
+comment1.target=DevCard(int,\ int,\ int,\ int,\ int,\ int,\ int,\ Resource)
+comment1.text=\nConstructeur\ \:\nInitialise\ les\ attributs\ de\ DevCard\n
+comment2.params=
+comment2.target=int\ getNiveau()
+comment2.text=\n\ Retourne\ le\ niveau\ de\ la\ carte\ actuel\n\ @return\ cardLevel\ \u2192\ Niveau\ de\ la\ carte\n
+comment3.params=
+comment3.target=int\ getPoints()
+comment3.text=\n\ Retourne\ le\ nombres\ de\ points\ sur\ la\ carte\n\ @return\ Points\ \u2192\ Points\ de\ victoire\ offert\ par\ la\ carte\n
+comment4.params=
+comment4.target=Resources\ getCost()
+comment4.text=\n\ Retourne\ le\ co\u00FBt\ en\ ressource\ de\ la\ carte\n\ @return\ costCard\ \u2192\ Co\u00FBt\ en\ resource\ donn\u00E9e\ selon\ l'ordre\ de\ Resource\n\ (Diamant,\ Sapphire,\ Emeraud,\ Onyx,\ et\ Rubis)\n
+comment5.params=
+comment5.target=Resource\ getResourceType()
+comment5.text=\n\ Retourne\ le\ type\ de\ la\ carte\ \n\ @return\ resourceType\ \u2192\ Type\ de\ resources\ de\ la\ carte\n
+comment6.params=
+comment6.target=java.lang.String[]\ toStringArray()
+comment6.text=---\ Stringers\ ---
+comment7.params=
+comment7.target=java.lang.String[]\ noCardStringArray()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

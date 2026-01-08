@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Action
+comment0.text=\n\ D\u00E9crivez\ votre\ interface\ Action\ ici.\n\n\ @author\ \ (votre\ nom)\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\n
+comment1.params=player\ board
+comment1.target=void\ process(Player,\ Board)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3
