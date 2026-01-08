@@ -13,7 +13,7 @@ public class DevCard implements Displayable {
      *Constructeur :
      *Initialise les attributs de DevCard
      */
-    public DevCard(int cardLevel,int coutDiamond,int coutSapphire, int coutEmerald, int coutRuby, int coutOnyx, int costCard, Resource resourceType){
+    public DevCard(int cardLevel,int coutDiamond,int coutSapphire, int coutEmerald, int coutRuby, int coutOnyx, int points, Resource resourceType){
         this.cardLevel = cardLevel;
         this.points = points;
         this.cost =  new Resources(coutDiamond,coutSapphire,coutEmerald,coutRuby,coutOnyx);
